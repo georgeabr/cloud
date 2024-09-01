@@ -12,11 +12,12 @@ Run these to apply the deployment and service files:
 kubectl apply -f nginx-deployment.yaml
 kubectl apply -f nginx-service.yaml
 ```
-You can check the status of your deployment and service using the following commands: 
+You can check the status of your deployment and service plus public IP address using the following commands: 
 ```
 kubectl get deployments
 kubectl get services
 ```
+To connect to the IP address via port 80, use the browser.  
 To list pods and connect to a pod:
 ```
 kubectl get pods
