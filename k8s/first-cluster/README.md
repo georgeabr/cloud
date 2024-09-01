@@ -22,7 +22,7 @@ To list pods and connect to a pod:
 kubectl get pods
 kubectl exec --stdin --tty nginx-deployment-7c79c4bf97-tjlqd -- /bin/bash
 ```
-To return snapshot logs from all containers in pods defined by label app=nginx
+To return snapshot logs from all containers in pods defined by label `app=nginx`
 ```
 kubectl logs nginx-service --all-containers=true
 ```
